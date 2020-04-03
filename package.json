@@ -1,0 +1,19 @@
+{
+  "name": "frontend-project-lvl1-inger",
+  "version": "1.0.0",
+  "description": "frontend-project-lvl1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inger-na/frontend-project-lvl1.git"
+  },
+  "author": "inger-na",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inger-na/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/inger-na/frontend-project-lvl1#readme"
+}
