@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "description": "frontend-project-lvl1",
   "main": "src/index.js",
+  "bin": {
+    "brain-games": "bin/brain-games.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "module",
+    "type": "module",
     "url": "git+https://github.com/inger-na/frontend-project-lvl1.git"
   },
   "author": "inger-na",
@@ -16,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/inger-na/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/inger-na/frontend-project-lvl1#readme"
+  "homepage": "https://github.com/inger-na/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/node": "^7.8.7",
+    "@babel/preset-env": "^7.9.0"
+  }
 }
