@@ -13,6 +13,8 @@
     "type": "module",
     "url": "git+https://github.com/inger-na/frontend-project-lvl1.git"
   },
+   "type": "module",
+
   "author": "inger-na",
   "license": "ISC",
   "bugs": {
@@ -24,5 +26,8 @@
     "@babel/core": "^7.9.0",
     "@babel/node": "^7.8.7",
     "@babel/preset-env": "^7.9.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
