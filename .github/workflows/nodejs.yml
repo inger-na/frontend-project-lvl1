@@ -24,8 +24,8 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: eslint test
-        run: |
-          make lint          
+    - name: Run linter
+      run: |
+          make lint         
       env:
         CI: true
