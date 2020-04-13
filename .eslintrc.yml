@@ -1,8 +1,7 @@
 ---
 
 plugins:
-  # https://github.com/jest-community/eslint-plugin-jest
-  - jest
+  
   # https://github.com/babel/eslint-plugin-babel
   - babel
 
@@ -10,7 +9,7 @@ plugins:
 env:
   browser: true
   node: true
-  jest: true
+  
 
 # https://github.com/babel/babel-eslint
 parser: babel-eslint
