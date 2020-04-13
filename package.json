@@ -41,7 +41,6 @@
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0",
-    "frontend-project-lvl1-inger": "^1.0.1",
     "readline-sync": "^1.4.10"
   }
 }
