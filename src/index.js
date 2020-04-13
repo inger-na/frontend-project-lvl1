@@ -18,7 +18,7 @@ const even = () => {
       if (questions === 'yes') {
         console.log('Correct!');
       } else {
-        console.log(`"${questions}" is wrong answer ;(. Correct answer was "yes". Let's try again, ${name} `);
+        console.log(`"${questions}" is wrong answer ;(. Correct answer was "yes". \n Let's try again, ${name} `);
         break;
       }
     }

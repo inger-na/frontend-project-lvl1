@@ -1,6 +1,6 @@
 {
-  "name": "frontend-project-lvl1-ing",
-  "version": "1.0.01",
+  "name": "frontend-project-lvl1-inger",
+  "version": "1.0.1",
   "description": "frontend-project-lvl1",
   "main": "src/index.js",
   "bin": {
@@ -36,7 +36,8 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-lodash-fp": "^2.2.0-a1",
     "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.1"
+    "eslint-plugin-react-hooks": "^2.5.1",
+    "install": "^0.13.0"
   },
   "dependencies": {
     "eslint-config-airbnb-base": "^14.1.0",
