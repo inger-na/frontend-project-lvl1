@@ -16,7 +16,7 @@ env:
 parser: babel-eslint
 
 extends:
-  - "eslint-config-airbnb-base"
+  - 'airbnb-base'
   - 'plugin:jest/recommended'
   - 'plugin:lodash-fp/recommended'
 
