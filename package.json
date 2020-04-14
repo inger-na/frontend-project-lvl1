@@ -8,8 +8,9 @@
     "brain-even": "bin/brain-even.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"  
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "lint": "npx eslint .",
   "repository": {
     "type": "module",
     "url": "git+https://github.com/inger-na/frontend-project-lvl1.git"
@@ -32,17 +33,13 @@
     "babel-preset-airbnb": "^5.0.0",
     "babel-preset-env": "*",
     "babel-preset-stage-0": "*",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb": "^18.1.0",
-    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "eslint-plugin-react-hooks": "^2.5.0"
+    "install": "^0.13.0"
   },
   "dependencies": {
     "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-jest": "^23.8.2",
     "readline-sync": "^1.4.10"
   }
 }
