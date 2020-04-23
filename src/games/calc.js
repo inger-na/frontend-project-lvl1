@@ -12,8 +12,17 @@ const calc = () => {
     const math = Math.floor((Math.random() * 100) + 1);
     const mathSecond = Math.floor((Math.random() * 100) + 1);
     const question = `${math} ${operator} ${mathSecond}`;
-    const answer = eval(question);
-    return { question, answer };
+    const result = () => {
+      if (operator === '+') {
+        return math + mathSecond;
+      }
+      if (operator === '-') {
+        return math - mathSecond;
+      }
+      return math * mathSecond;
+    };
+    const answer = result();
+    return { question, answer: String(answer) };
   };
   game({ title, getQuestion });
 };

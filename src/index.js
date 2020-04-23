@@ -15,7 +15,7 @@ const game = (data) => {
   for (let i = 1; i <= 3; i += 1) {
     const { question, answer } = data.getQuestion();
     const yourAnswer = readlineSync.question(`Question: ${question} \nYour answer: `);
-    if (yourAnswer == answer) {
+    if (yourAnswer === answer) {
       console.log('Correct!');
     } else {
       console.log(`"${yourAnswer}" is wrong answer ;(. Correct answer was "${answer}". \n Let's try again, ${userName} !`);
