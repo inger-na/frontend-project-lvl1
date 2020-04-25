@@ -9,3 +9,10 @@ Brain-calc Пример Победы игрока
 
 Brain-calc Пример Поражения игрока
 [![asciicast](https://asciinema.org/a/323418.svg)](https://asciinema.org/a/323418)
+
+
+Brain-gcd Пример Победы игрока
+[![asciicast](https://asciinema.org/a/7UhPLYpy4aIrIyLa3ugjEvzok.svg)](https://asciinema.org/a/7UhPLYpy4aIrIyLa3ugjEvzok)
+
+Brain-gcd Пример Поражения игрока
+[![asciicast](https://asciinema.org/a/BwaCrdQgz8CIeA14KGY1CHpNb.svg)](https://asciinema.org/a/BwaCrdQgz8CIeA14KGY1CHpNb)
