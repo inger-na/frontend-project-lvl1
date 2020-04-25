@@ -16,3 +16,9 @@ Brain-gcd Пример Победы игрока
 
 Brain-gcd Пример Поражения игрока
 [![asciicast](https://asciinema.org/a/BwaCrdQgz8CIeA14KGY1CHpNb.svg)](https://asciinema.org/a/BwaCrdQgz8CIeA14KGY1CHpNb)
+
+Brain-progression Пример Победы игрока
+[![asciicast](https://asciinema.org/a/n5ibW5bLjT4sLyTKNpzvghA8x.svg)](https://asciinema.org/a/n5ibW5bLjT4sLyTKNpzvghA8x)
+
+Brain-progression Пример Поражения игрока
+[![asciicast](https://asciinema.org/a/WGIBFybdGHKWEcODgnp4W7h91.svg)](https://asciinema.org/a/WGIBFybdGHKWEcODgnp4W7h91)
