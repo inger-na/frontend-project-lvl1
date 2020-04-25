@@ -22,3 +22,9 @@ Brain-progression Пример Победы игрока
 
 Brain-progression Пример Поражения игрока
 [![asciicast](https://asciinema.org/a/WGIBFybdGHKWEcODgnp4W7h91.svg)](https://asciinema.org/a/WGIBFybdGHKWEcODgnp4W7h91)
+
+Brain-prime Пример Победы игрока
+[![asciicast](https://asciinema.org/a/q1drhXV5TOCGFsNN9JIa51BCi.svg)](https://asciinema.org/a/q1drhXV5TOCGFsNN9JIa51BCi)
+
+Brain-prime Пример Поражения игрока
+[![asciicast](https://asciinema.org/a/xp264viWpY6lDA3LdX4xHn5f1.svg)](https://asciinema.org/a/xp264viWpY6lDA3LdX4xHn5f1)
