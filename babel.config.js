@@ -6,8 +6,4 @@ module.exports = {
       },
     }],
   ],
-  plugins: [
-    '@babel-plugin-dynamic-import-node',
-    '@babel/plugin-proposal-export-default-from',
-  ],
 };
