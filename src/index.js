@@ -7,23 +7,19 @@ export const getUserName = () => {
   return userName;
 };
 
-const game = (data) => {
+const game = (getQuestion, title) => {
   console.log('Welcome to the Brain Games! ');
-
   const userName = getUserName();
-  console.log(`${data.title}`);
+  console.log(`${title}`);
   for (let i = 1; i <= 3; i += 1) {
-    const { question, answer } = data.getQuestion();
+    const [question, answer] = getQuestion();
     const yourAnswer = readlineSync.question(`Question: ${question} \nYour answer: `);
     if (yourAnswer === answer) {
       console.log('Correct!');
     } else {
-      console.log(`"${yourAnswer}" is wrong answer ;(. Correct answer was "${answer}". \n Let's try again, ${userName} !`);
-      break;
-    }
-    if (i === 3) {
-      console.log(`Congratulations, ${userName}!`);
+      return console.log(`"${yourAnswer}" is wrong answer ;(. Correct answer was "${answer}". \n Let's try again, ${userName} !`);
     }
   }
+  return console.log(`Congratulations, ${userName}!`);
 };
 export default game;

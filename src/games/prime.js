@@ -1,17 +1,22 @@
 #!/usr/bin/env node
 import game from '../index.js';
+import math from '../modules/math.js';
 
-const prime = () => {
-  const title = 'Answer "yes" if given number is prime. Otherwise answer "no".';
-  const getQuestion = () => {
-    const math = Math.floor((Math.random() * 200) + 1);
-    for (let i = 2; i < math; i += 1) {
-      if (math % i === 0) {
-        return { answer: 'no', question: math };
-      }
+const title = 'Answer "yes" if given number is prime. Otherwise answer "no".';
+const isPrime = (num) => {
+  let result;
+  for (let i = 2; i < num; i += 1) {
+    if (num % i === 0) {
+      result = false;
+      return result;
     }
-    return { answer: 'yes', question: math };
-  };
-  game({ title, getQuestion });
+    result = true;
+  }
+  return result;
 };
-export default prime;
+const getQuestion = () => {
+  const question = math(200, 1);
+  const answer = isPrime(question) ? 'yes' : 'no';
+  return [question, answer];
+};
+export default () => game(getQuestion, title);
