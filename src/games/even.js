@@ -1,11 +1,10 @@
-#!/usr/bin/env node
 import game from '../index.js';
-import math from '../modules/math.js';
+import getRandomNumber from '../random.js';
 
 const title = 'Answer "yes" if the number is even, otherwise answer "no".';
-const getQuestion = () => {
-  const question = math();
+const getQuestionAndAnswer = () => {
+  const question = getRandomNumber(1);
   const answer = question % 2 === 0 ? 'yes' : 'no';
   return [question, answer];
 };
-export default () => game(getQuestion, title);
+export default () => game(getQuestionAndAnswer, title);
