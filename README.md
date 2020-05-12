@@ -31,6 +31,7 @@
 
 ## Brain-calc 
 ` Player Victory Example`
+
 [![asciicast](https://asciinema.org/a/323213.svg)](https://asciinema.org/a/323213)
 
 ## Brain-calc 
@@ -40,26 +41,32 @@
 
 ## Brain-gcd
 ` Player Victory Example`
+
 [![asciicast](https://asciinema.org/a/7UhPLYpy4aIrIyLa3ugjEvzok.svg)](https://asciinema.org/a/7UhPLYpy4aIrIyLa3ugjEvzok)
 
 ## Brain-gcd
 `Player Defeat Example`
+
 [![asciicast](https://asciinema.org/a/BwaCrdQgz8CIeA14KGY1CHpNb.svg)](https://asciinema.org/a/BwaCrdQgz8CIeA14KGY1CHpNb)
 
 ## Brain-progression
 ` Player Victory Example`
+
 [![asciicast](https://asciinema.org/a/n5ibW5bLjT4sLyTKNpzvghA8x.svg)](https://asciinema.org/a/n5ibW5bLjT4sLyTKNpzvghA8x)
 
 ## Brain-progression
 `Player Defeat Example`
+
 [![asciicast](https://asciinema.org/a/WGIBFybdGHKWEcODgnp4W7h91.svg)](https://asciinema.org/a/WGIBFybdGHKWEcODgnp4W7h91)
 
 ## Brain-prime
 ` Player Victory Example`
+
 [![asciicast](https://asciinema.org/a/q1drhXV5TOCGFsNN9JIa51BCi.svg)](https://asciinema.org/a/q1drhXV5TOCGFsNN9JIa51BCi)
 
 ## Brain-prime
 `Player Defeat Example`
+
 [![asciicast](https://asciinema.org/a/xp264viWpY6lDA3LdX4xHn5f1.svg)](https://asciinema.org/a/xp264viWpY6lDA3LdX4xHn5f1)
 
 
