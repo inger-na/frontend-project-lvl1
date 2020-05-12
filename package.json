@@ -27,13 +27,8 @@
   },
   "homepage": "https://github.com/inger-na/frontend-project-lvl1#readme",
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.5",
-    "babel-eslint": "^8.2.6",
-    "babel-preset-airbnb": "^5.0.0",
     "eslint": "^5.16.0",
+    "babel-eslint": "^8.2.6",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-babel": "^5.3.0"

@@ -6,8 +6,7 @@ plugins:
   - babel
 
 # https://eslint.org/docs/user-guide/configuring#specifying-environments
-env:
-  browser: true
+env: 
   node: true
   
 

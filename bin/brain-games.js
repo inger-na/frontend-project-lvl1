@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-import { getUserName } from '../src/index.js';
+import getUserName from '../src/games/brain-games.js';
 
-console.log('Welcome to the Brain Games! \n');
 getUserName();
