@@ -3,15 +3,15 @@ import getRandomNumber from '../random.js';
 
 const title = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const isPrime = (num) => {
-  let result;
+  if (num < 2) {
+    return false;
+  }
   for (let i = 2; i < num / 2; i += 1) {
     if (num % i === 0) {
-      result = false;
-      return result;
+      return false;
     }
-    result = true;
   }
-  return result;
+  return true;
 };
 const getQuestionAndAnswer = () => {
   const question = getRandomNumber(2, 200);

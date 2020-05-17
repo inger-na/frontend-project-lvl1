@@ -5,16 +5,18 @@ const game = (getQuestionAndAnswer, title) => {
   console.log('Welcome to the Brain Games! ');
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello, ${userName}! `);
-  console.log(`${title}`);
+  console.log(title);
   for (let i = 1; i <= numberOfQuestions; i += 1) {
     const [question, answer] = getQuestionAndAnswer();
-    const yourAnswer = readlineSync.question(`Question: ${question} \nYour answer: `);
-    if (yourAnswer === answer) {
+    console.log(`Question: ${question}`);
+    const userAnswer = readlineSync.question('Your answer: ');
+    if (userAnswer === answer) {
       console.log('Correct!');
     } else {
-      return console.log(`"${yourAnswer}" is wrong answer ;(. Correct answer was "${answer}". \n Let's try again, ${userName}!`);
+      return console.log(`"${userAnswer}" is wrong answer ;(. Correct answer was "${answer}". \n Let's try again, ${userName}!`);
     }
   }
-  return console.log(`Congratulations, ${userName}!`);
+  console.log(`Congratulations, ${userName}!`);
+  return true;
 };
 export default game;
