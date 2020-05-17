@@ -1,4 +1,4 @@
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+[![Maintainability](https://api.codeclimate.com/v1/badges/36afcfa5bacd6b3eeb43/maintainability)](https://codeclimate.com/github/inger-na/frontend-project-lvl1/maintainability)
 ![Node.js CI](https://github.com/inger-na/frontend-project-lvl1/workflows/Node.js%20CI/badge.svg)
 
 # Project lvl-1 / `Frontend JS Programmer` <a href="https://ru.hexlet.io/professions/frontend/projects/44">Hexlet</a>
