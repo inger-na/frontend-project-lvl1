@@ -13,7 +13,7 @@ const getProgression = (startProgression, differenceInProgression, length) => {
 };
 const getQuestionAndAnswer = () => {
   const startProgression = getRandomNumber(1, 100);
-  const differenceInProgression = 2;
+  const differenceInProgression = getRandomNumber(1, 10);
   const missingElementIndex = getRandomNumber(1, progressionLength - 1);
   const progression = getProgression(startProgression, differenceInProgression, progressionLength);
   const answer = progression.splice(missingElementIndex, 1, '..');
