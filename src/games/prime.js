@@ -1,4 +1,4 @@
-import game from '../index.js';
+import play from '../index.js';
 import getRandomNumber from '../random.js';
 
 const title = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -18,4 +18,4 @@ const getQuestionAndAnswer = () => {
   const answer = isPrime(question) ? 'yes' : 'no';
   return [question, answer];
 };
-export default () => game(getQuestionAndAnswer, title);
+export default () => play(getQuestionAndAnswer, title);

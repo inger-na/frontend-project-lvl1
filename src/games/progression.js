@@ -1,4 +1,4 @@
-import game from '../index.js';
+import play from '../index.js';
 import getRandomNumber from '../random.js';
 
 const title = 'What number is missing in the progression?';
@@ -12,8 +12,8 @@ const getProgression = (startProgression, differenceInProgression, length) => {
   return progression;
 };
 const getQuestionAndAnswer = () => {
-  const startProgression = getRandomNumber(1);
-  const differenceInProgression = getRandomNumber(2, 1);
+  const startProgression = getRandomNumber(1, 100);
+  const differenceInProgression = 2;
   const missingElementIndex = getRandomNumber(1, progressionLength - 1);
   const progression = getProgression(startProgression, differenceInProgression, progressionLength);
   const answer = progression.splice(missingElementIndex, 1, '..');
@@ -22,4 +22,4 @@ const getQuestionAndAnswer = () => {
   return [question, answer.toString()];
 };
 
-export default () => game(getQuestionAndAnswer, title);
+export default () => play(getQuestionAndAnswer, title);
